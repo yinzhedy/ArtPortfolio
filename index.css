@@ -19,6 +19,7 @@ body {
     background-color: var(--mint-cream-light);
     font-family: 'Cinzel', serif;
     font-family: 'Lora', serif;
+    font-color: var(--smoky-black)
 }
 
 /* HOVER COLOR CHANGES */
@@ -94,7 +95,7 @@ body {
 .dropdown-content {
     display:none;
     z-index: 1;
-    background-color: var(--viridian);
+    background-color: var(--viridian-light);
 }
 
 .dropdown:hover .dropdown-content {
@@ -104,11 +105,18 @@ body {
 
 /* SECTIONS */
 
+#section-container {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    height: 100%;
+
+}
+
 .section {
     background-color: var(--coyote-light);
-    margin: 10%;
     width: 90%;
-    height: 100%;
+    margin-top: 5%;
+    height: 300px;
 }
 
 
