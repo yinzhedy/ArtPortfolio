@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 3.5%;
+    margin-top: 2%;
+
+}
+
+.section {
+    background-color: grey;
+    margin: 10%;
+}
+
+.footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5%;
+    margin-bottom: 2%;
+}
