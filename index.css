@@ -1,9 +1,28 @@
+:root {
+    /* custom colors */
+    --licorice: #170312;
+    --mint-cream: #EAF2EF;
+    --viridian: #6B9080;
+    --coyote: #7C6354;
+    --smoky-black: #0D090A;
+    --mint-cream-light: #F3F8F6;
+    --viridian-light: #AEC3BA;
+    --coyote-light: #BDAA9E;
+    --mint-cream-dark: #CAD7D2;
+    --viridian-dark: #64786F;
+    --coyote-dark: #665A52;
+    --black: #0A0809;
+
+  }
+
 body {
-    background-color: black;
+    background-color: var(--mint-cream-light);
+    font-family: 'Cinzel', serif;
+    font-family: 'Lora', serif;
 }
 
 .header {
-    background-color: white;
+    background-color: var(--mint-cream-dark);
     position: fixed;
     top:0;
     width: 100%;
@@ -12,16 +31,35 @@ body {
 
 }
 
+.header:hover {
+    background-color: var(--mint-cream);
+    box-shadow: 6px 6px 1.5px .5px var(--mint-cream-dark);
+
+}
+
+#section-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .section {
-    background-color: grey;
+    background-color: var(--coyote-light);
     margin: 10%;
+    width: 90%;
 }
 
 .footer {
-    background-color: white;
+    background-color: var(--mint-cream-dark);
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 2.5%;
     margin-bottom: 2%;
+}
+
+.footer:hover {
+    background-color: var(--mint-cream);
+    box-shadow: 6px 6px 1.5px .5px var(--mint-cream-dark);
 }
