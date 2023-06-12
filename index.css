@@ -21,6 +21,56 @@ body {
     font-family: 'Lora', serif;
 }
 
+/* HOVER COLOR CHANGES */
+
+.hover-mint:hover {
+    background-color: var(--mint-cream);
+
+}
+
+.hover-mint-dark:hover {
+    background-color: var(--mint-cream-dark);
+}
+
+/* CUSTOM DISPLAY CSS */
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+
+/* HEADER */
+
 .header {
     background-color: var(--mint-cream-dark);
     position: fixed;
@@ -31,30 +81,28 @@ body {
 
 }
 
-.header:hover {
-    background-color: var(--mint-cream);
-    box-shadow: 6px 6px 1.5px .5px var(--mint-cream-dark);
-
-}
-
-#header-list-container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: left;
-    align-items:center;
-}
-
 .header-list-item {
     margin-left: 10%;
     margin-right: 10%;
+    border: none;
+    outline: none;
 }
 
-#section-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+
+/* COLLECTION DROPDOWN MENU */
+
+.dropdown-content {
+    display:none;
+    z-index: 1;
+    background-color: var(--viridian);
 }
+
+.dropdown:hover .dropdown-content {
+    display:flex;
+}
+
+
+/* SECTIONS */
 
 .section {
     background-color: var(--coyote-light);
@@ -62,6 +110,10 @@ body {
     width: 90%;
     height: 100%;
 }
+
+
+
+/* FOOTER */
 
 .footer {
     background-color: var(--mint-cream-dark);

@@ -17,24 +17,35 @@
 
 <header class = "header">
     <div> YINZHE DONG-YDEEN </div>
-    <nav >
-        <ul id="header-list-container">
-            <li class="header-list-item">
-                collections
-            </li>
-            <li class="header-list-item">
+        <nav id="header-list-container" class="flex nowrap row justify-left">
+            <a class="header-list-item hover-mint">
                 contact
-            </li>
-            <li class="header-list-item">
+            </a>
+            <a class="header-list-item hover-mint">
                 about
-            </li>
-        </ul>
-    </nav>
+            </a>
+            <div class="header-list-item dropdown">
+                    <a class="hover-mint">collections</a>
+                
+                <div id="collections-list" class="dropdown-content flex column left">
+                    <a class="collections-list-item hover-mint-dark">
+                        portraits
+                    </a>
+                    <a class="collections-list-item hover-mint-dark">
+                        fan art
+                    </a>
+                    <a class="collections-list-item hover-mint-dark">
+                        custom orders
+                    </a>
+                </div>
+
+            </div>
+        </nav>
     
 </header>
 
 
-<div id="section-container">
+<div id="section-container" class="flex column nowrap justify-center align-center">
     <section class = "section">
         Section 1
     </section>
