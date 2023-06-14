@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lora&display=swap');
-      </style>
-    <title>Yinzhe-DY-Portfolio</title>
-</head>
-
-<body class="flex rows">
-
-
-
-<header class = "header">
+const Header = () => {
+    return (
+        <header class = "header">
     <div id="name" class=" text-left "> YINZHE DONG-YDEEN </div>
         <nav id="header-list-container" class="flex nowrap row justify-left ">
             <a class="header-list-item hover-mint">
@@ -44,32 +29,7 @@
         </nav>
     
 </header>
+    )
+}
 
-
-<main id="section-container" class="flex column nowrap justify-center align-center">
-    <section class = "section">
-        Section 1
-    </section>
-
-
-
-    <section class = "section">
-        section 2
-    </section>
-
-
-
-    <section class = "section">
-        section 3
-    </section>
-</main>
-
-
-<footer class = "footer">
-    footer
-</footer>
-
-
-<script src="index.js"></script>
-</body>
-</html>
+export default Header;
