@@ -19,7 +19,7 @@ body {
     background-color: var(--mint-cream-light);
     font-family: 'Cinzel', serif;
     font-family: 'Lora', serif;
-    font-color: var(--smoky-black)
+    color: var(--smoky-black)
 }
 
 /* HOVER COLOR CHANGES */
@@ -115,20 +115,23 @@ body {
     display:flex;
 }
 
+.collections-list-item {
+    text-indent: 10px;
+}
 
 /* SECTIONS */
 
 #section-container {
     padding-bottom: 10%;
-    padding-top: 10%;
     height: 100%;
+    width: 100%;
 
 }
 
 .section {
     background-color: var(--coyote-light);
     width: 90%;
-    margin-top: 25px;
+    margin-top: 10%;
     height: 300px;
 }
 
