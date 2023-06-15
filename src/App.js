@@ -23,9 +23,9 @@ function App() {
           <div class="header-list-item dropdown">
             <a class="hover-mint">collections</a>
               <div id="collections-list" className="dropdown-content flex column left">
-                <a class="collections-list-item hover-mint-dark">portraits</a>
-                <a class="collections-list-item hover-mint-dark">fan art</a>
-                <a class="collections-list-item hover-mint-dark">custom orders</a>
+                <a class="collections-list-item hover-mint">portraits</a>
+                <a class="collections-list-item hover-mint">fan art</a>
+                <a class="collections-list-item hover-mint">custom orders</a>
               </div>
 
           </div>

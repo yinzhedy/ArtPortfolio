@@ -19,18 +19,18 @@ body {
     background-color: var(--mint-cream-light);
     font-family: 'Cinzel', serif;
     font-family: 'Lora', serif;
-    color: var(--smoky-black)
+    color: var(--smoky-black);
 }
 
 /* HOVER COLOR CHANGES */
 
 .hover-mint:hover {
-    background-color: var(--mint-cream);
+    color: var(--mint-cream)
 
 }
 
 .hover-mint-dark:hover {
-    background-color: var(--mint-cream-dark);
+    color: var(--mint-cream-dark);
 }
 
 /* REUSABLE CUSTOM DISPLAY CSS */
@@ -102,6 +102,8 @@ body {
     margin-right: 10%;
     border: none;
     outline: none;
+    text-decoration:none;
+    color: var(--smoky-black);
 }
 
 #name {
