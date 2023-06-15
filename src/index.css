@@ -85,6 +85,11 @@ body {
     font-size: 18px;
 }
 
+.style-link {
+    text-decoration:none;
+    color: var(--smoky-black);
+}
+
 /* HEADER */
 
 .header {
@@ -103,18 +108,11 @@ body {
     margin-right: 10%;
     border: none;
     outline: none;
-    text-decoration:none;
-    color: var(--smoky-black);
 }
 
 #name {
     padding-top: 10px;
     margin-left: 5%;
-}
-
-.collections-list-item {
-    text-decoration: none;
-    color: var(--smoky-black)
 }
 
 
@@ -141,7 +139,7 @@ body {
 }
 
 .section {
-    background-color: var(--coyote-light);
+    background-color: var(--mint-cream);
     width: 90%;
     margin-top: 10%;
     height: 300px;

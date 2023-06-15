@@ -19,15 +19,15 @@ function App() {
       <header class = "header">
         <div id="name" class=" text-left "> YINZHE DONG-YDEEN </div>
         <nav id="header-list-container" class="flex nowrap row justify-left ">
-        <a href="/" class="header-list-item hover-mint">Home</a>
-          <a href="/about" class="header-list-item hover-mint">about</a>
-          <a href ="/contact"class="header-list-item hover-mint">contact</a>
-          <div class="header-list-item dropdown">
+        <a href="/" class="header-list-item style-link hover-mint">Home</a>
+          <a href="/about" class="header-list-item style-link hover-mint">about</a>
+          <a href ="/contact"class="header-list-item style-link hover-mint">contact</a>
+          <div class="header-list-item style-link dropdown">
             <a class="hover-mint">collections</a>
               <div id="collections-list" className="dropdown-content flex column left">
-                <a href ="/portrait" class="collections-list-item hover-mint">portraits</a>
-                <a href ="/misc" class="collections-list-item hover-mint">misc.</a>
-                <a href ="/custom" class="collections-list-item hover-mint">custom</a>
+                <a href ="/portrait" class="style-link hover-mint">portraits</a>
+                <a href ="/misc" class="style-link hover-mint">misc.</a>
+                <a href ="/custom" class="style-link hover-mint">custom</a>
               </div>
 
           </div>

@@ -4,8 +4,8 @@ const Contact = () => {
         <div id="section-container" class="flex column nowrap justify-center align-center">
             <section class = "section flex column nowrap justify-left align-left">
                 <h1 class="header-1">Contact Information and Links</h1>
-                <a> Github</a>
-                <a>LinkedIn</a>
+                <a href="https://github.com/yinzhedy" class="style-link hover-mint-dark"> Github</a>
+                <a href="https://www.linkedin.com/in/yinzhe-dong-ydeen-7a116121b/" class="style-link hover-mint-dark">LinkedIn</a>
                 <a>Email: yinzhe.dy@gmail.com</a>
             </section>
             <section id="contact-form-section" class="section flex column nowrap">
