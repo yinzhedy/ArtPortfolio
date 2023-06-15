@@ -112,6 +112,11 @@ body {
     margin-left: 5%;
 }
 
+.collections-list-item {
+    text-decoration: none;
+    color: var(--smoky-black)
+}
+
 
 /* COLLECTION DROPDOWN MENU */
 
