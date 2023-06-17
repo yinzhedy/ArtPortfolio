@@ -1,7 +1,6 @@
 
 const Homepage = () => {
     return (
-    <main class="flex rows">
         <div id="section-container" class="flex column nowrap justify-center align-center">
             <section class = "section">
                 Section 1
@@ -19,7 +18,6 @@ const Homepage = () => {
                 section 3
             </section>
         </div>
-    </main>
     )
 }
 

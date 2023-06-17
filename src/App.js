@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // Components import
 import Footer from './components/footer/footer-index';
+import NavMenu from './components/nav/nav-index';
 // Pages import
 import Homepage from './pages/homepage/homepage-index';
 import About from './pages/about/about-index';
@@ -16,8 +17,8 @@ function App() {
     <div className="App">
 
 
-      <header class = "header">
-        <div id="name" class=" text-left "> YINZHE DONG-YDEEN </div>
+      <header class = "header flex nowrap row justify-left align-center">
+        <div class="name text-left "> <a class="capital-bold">Y</a>INZHE <a class="capital-bold">D</a>ONG-<a class="capital-bold">Y</a>DEEN </div>
         <nav id="header-list-container" class="flex nowrap row justify-left ">
         <a href="/" class="header-list-item style-link hover-mint">Home</a>
           <a href="/about" class="header-list-item style-link hover-mint">about</a>
@@ -34,17 +35,25 @@ function App() {
         </nav>
       </header>
 
+      <main id="main-container" class = " flex columns nowrap">
 
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element = {<Homepage/>}/>
-          <Route path="/about" element = {<About/>}/>
-          <Route path="/contact" element ={<Contact/>}/>
-          <Route path="/portrait" element ={<PortraitCollection/>}/>
-          <Route path="/misc" element ={<MiscCollection/>}/>
-          <Route path="/custom" element ={<CustomCollection/>}/>
-        </Routes>
-      </BrowserRouter>
+        <NavMenu/>
+
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element = {<Homepage/>}/>
+            <Route path="/about" element = {<About/>}/>
+            <Route path="/contact" element ={<Contact/>}/>
+            <Route path="/portrait" element ={<PortraitCollection/>}/>
+            <Route path="/misc" element ={<MiscCollection/>}/>
+            <Route path="/custom" element ={<CustomCollection/>}/>
+          </Routes>
+        </BrowserRouter>
+
+      </main>
+
+
+      
 
 
       <Footer/>
