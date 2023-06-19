@@ -16,7 +16,7 @@
   }
 
 body {
-    background-color: var(--mint-cream-light);
+    background-color: var(--smoky-black);
     font-family: 'Cinzel', serif;
     font-family: 'Lora', serif;
     font-family: 'Nunito', sans-serif;
@@ -91,9 +91,13 @@ body {
     color: var(--smoky-black);
 }
 
+.white-font {
+    color: white;
+}
+
 /* HEADER */
 .header {
-    background-color: var(--mint-cream-dark);
+    background-color: white;
     position: fixed;
     top:0;
     width: 100%;
@@ -145,7 +149,7 @@ body {
 }
 
 .section {
-    background-color: var(--mint-cream);
+    background-color: grey;
     width: 100%;
     margin-top: 10%;
     height: 300px;
