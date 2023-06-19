@@ -17,25 +17,18 @@ function App() {
     <div className="App">
 
 
-      <header class = "header flex nowrap row justify-left align-center">
-        <div class="name text-left "> <a class="capital-bold">Y</a>INZHE <a class="capital-bold">D</a>ONG-<a class="capital-bold">Y</a>DEEN </div>
-        <nav id="header-list-container" class="flex nowrap row justify-left ">
-        <a href="/" class="header-list-item style-link hover-mint">Home</a>
-          <a href="/about" class="header-list-item style-link hover-mint">about</a>
-          <a href ="/contact"class="header-list-item style-link hover-mint">contact</a>
-          <div class="header-list-item style-link dropdown">
-            <a class="hover-mint">collections</a>
-              <div id="collections-list" className="dropdown-content flex column left">
-                <a href ="/portrait" class="style-link hover-mint">portraits</a>
-                <a href ="/misc" class="style-link hover-mint">misc.</a>
-                <a href ="/custom" class="style-link hover-mint">custom</a>
-              </div>
+      <header className = "header flex nowrap row justify-left align-center">
+        <div className="name text-left "> <a className="capital-bold">Y</a>INZHE <a className="capital-bold">D</a>ONG-<a className="capital-bold">Y</a>DEEN </div>
+        <nav id="header-list-container" className="flex nowrap row justify-left ">
+        <a href="/" className="header-list-item style-link hover-mint">HOME</a>
+          <a href="/about" className="header-list-item style-link hover-mint">ABOUT</a>
+          <a href ="/contact"className="header-list-item style-link hover-mint">CONTACT</a>
+          <a className="header-list-item style-link hover-mint">CV</a>
 
-          </div>
         </nav>
       </header>
 
-      <main id="main-container" class = " flex columns nowrap">
+      <main id="main-container" className = " flex columns nowrap">
 
         <NavMenu/>
 
