@@ -3,7 +3,7 @@ const Nav = () => {
     console.log(path)
     if (path == '/easton-nights-home') {
         return (
-            <div>
+            <div id="nav-container">
             <ul class=" flex column wrap justify-left align-left text-left"> 
                 <li  class = "nav-item"><a class = "style-link white-font" href="/dreams">DREAMS</a></li>
                 <li  class = "nav-item"><a class = "style-link white-font" href="/colors">COLORS</a></li>
@@ -23,9 +23,9 @@ const Nav = () => {
         }
     else if (path == '/') {
         return (
-            <div>
+            <div id= "nav-container">
             <ul class=" flex column wrap justify-left align-left text-left"> 
-                <li  class = "nav-item"><a class = "style-link white-font" href="/easton-nights-home">EASTON NIGHTS HOME</a></li>
+                <li  class = "nav-item"><a class = "style-link white-font" href="/easton-nights-home">EASTON NIGHTS</a></li>
                 <li  class = "nav-item"><a class = "style-link white-font" href="/exhibitions">EXHIBITIONS</a></li>
                 <li  class = "nav-item"><a class = "style-link white-font" href="/highlights">HIGHLIGHTS</a></li>
                 <li  class = "nav-item"><a class = "style-link white-font" href="/valley-days">VALLEY DAYS</a></li>

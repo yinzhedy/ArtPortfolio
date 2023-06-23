@@ -16,7 +16,7 @@
   }
 
 body {
-    background-color: var(--smoky-black);
+    background-color: black;
     font-family: 'Cinzel', serif;
     font-family: 'Lora', serif;
     font-family: 'Nunito', sans-serif;
@@ -79,7 +79,6 @@ body {
 .text-right{
     text-align: right;
 }
-
 /* REUSABLE CUSTOM STYLES CSS */
 
 .header-1 {
@@ -103,6 +102,7 @@ body {
     width: 100%;
     height: 5%;
     left: 0;
+    z-index: 10;
 }
 
 .header-list-item {
@@ -142,6 +142,7 @@ body {
 /* SECTIONS / MAIN CONTAINER */
 
 #section-container {
+    z-index: 0;
     padding-bottom: 10%;
     height: 100%;
     width: 100%;
@@ -156,6 +157,7 @@ body {
 }
 
 #main-container {
+    position: relative;
     margin-top: 20%;
     margin-left: 5%;
     margin-right:5%;
@@ -198,7 +200,35 @@ body {
 }
 
 /* NAV */
+
+#nav-container {
+    position: absolute;
+    z-index: 1;
+}
+
 .nav-item {
+    font-size: 30px;
+    font-weight: 200;
     height: fit-content;
     list-style-type: none;
+    padding-bottom: 3px;
+    width: auto;
+}
+
+/* HOMEPAGE */
+
+#homepage-container {
+    position: absolute;
+    z-index: 0;
+    height: auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1500px;
+    margin:0;
+}
+
+#homepage-background-image {
+    height: 80%;
+    width: 80%;
 }

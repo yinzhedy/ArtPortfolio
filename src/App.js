@@ -42,7 +42,7 @@ function App() {
 
 
       <header className = "header flex nowrap row justify-left align-center">
-        <div className="name text-left "> <a className="capital-bold">Y</a>INZHE <a className="capital-bold">D</a>ONG-<a className="capital-bold">Y</a>DEEN </div>
+        <div className="name text-left "> <a className ="style-link" href="/" ><a className="capital-bold">Y</a>INZHE <a className="capital-bold">D</a>ONG-<a className="capital-bold">Y</a>DEEN </a></div>
         <nav id="header-list-container" className="flex nowrap row justify-left ">
         <a href="/" className="header-list-item style-link hover-mint">HOME</a>
           <a href="/about" className="header-list-item style-link hover-mint">ABOUT</a>
@@ -52,7 +52,7 @@ function App() {
         </nav>
       </header>
 
-      <main id="main-container" className = " flex columns nowrap">
+      <main id="main-container">
 
 
         <Nav/>
