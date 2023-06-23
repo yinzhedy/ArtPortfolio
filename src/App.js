@@ -3,14 +3,38 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // Components import
 import Footer from './components/footer/footer-index';
-import NavMenu from './components/nav/nav-index';
-// Pages import
-import Homepage from './pages/homepage/homepage-index';
-import About from './pages/about/about-index';
-import Contact from './pages/contact/contact-index';
-import PortraitCollection from './pages/portraits/portraits-index';
-import CustomCollection from './pages/custom/custom-index';
-import MiscCollection from './pages/misc/misc-index';
+import Nav from './components/nav/nav'
+
+
+// General Pages import
+import Homepage from './pages/general/homepage/homepage-index'
+import About from './pages/general/about/about-index';
+import Contact from './pages/general/contact/contact-index';
+import Highlights from './pages/general/highlights/highlights';
+import Exhibitions from './pages/general/exhibitions/exhibitions';
+import eastonNightsHome from './pages/general/easton-nights-home/easton-nights-home';
+
+
+// Gallery Pages import
+import valleyDaysGallery from './pages/galleries/valley-days/valley-days';
+import valleyDaysRondelsGallery from './pages/galleries/valley-days-rondels/valley-days-rondels';
+import waitingForPalmsGallery from './pages/galleries/waiting-for-palms/waiting-for-palms';
+import blackWhiteAndGreyGallery from './pages/galleries/black-white-and-gray/black-white-and-grey';
+import aCommutersMotionsGallery from './pages/galleries/a-commuters-motions/a-commuters-motions';
+import awayGallery from './pages/galleries/away/away';
+
+import dreamsGallery from './pages/galleries/dreams/dreams';
+import colorsGallery from './pages/galleries/colors/colors';
+import stagesGallery from './pages/galleries/stages/stages';
+import wordsGallery from './pages/galleries/words/words';
+import geometryGallery from './pages/galleries/geometry/geometry';
+import beehivesGallery from './pages/galleries/beehives/beehives';
+import portalsGallery from './pages/galleries/portals/portals';
+import faunaGallery from './pages/galleries/fauna/fauna';
+import floraGallery from './pages/galleries/flora/flora';
+import memesisGallery from './pages/galleries/memesis/memesis';
+import theEndTheBeginningGallery from './pages/galleries/the-end-the-beginning/the-end-the-beginning';
+
 
 function App() {
   return (
@@ -30,16 +54,23 @@ function App() {
 
       <main id="main-container" className = " flex columns nowrap">
 
-        <NavMenu/>
+
+        <Nav/>
 
         <BrowserRouter>
           <Routes>
             <Route path="/" element = {<Homepage/>}/>
             <Route path="/about" element = {<About/>}/>
             <Route path="/contact" element ={<Contact/>}/>
-            <Route path="/portrait" element ={<PortraitCollection/>}/>
-            <Route path="/misc" element ={<MiscCollection/>}/>
-            <Route path="/custom" element ={<CustomCollection/>}/>
+            <Route path="/easton-nights-home" element ={<eastonNightsHome/>}/>
+            <Route path="/exhibitions" element ={<Exhibitions/>}/>
+            <Route path="/highlights" element ={<Highlights/>}/>
+            <Route path="/valley-days" element ={<valleyDaysGallery/>}/>
+            <Route path="/valley-days-rondels" element ={<valleyDaysRondelsGallery/>}/>
+            <Route path="/waiting-for-palms" element ={<waitingForPalmsGallery/>}/>
+            <Route path="/black-white-and-grey" element ={<blackWhiteAndGreyGallery/>}/>
+            <Route path="/a-commuters-motions" element ={<aCommutersMotionsGallery/>}/>
+            <Route path="/away" element ={<awayGallery/>}/>
           </Routes>
         </BrowserRouter>
 
